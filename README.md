@@ -19,3 +19,5 @@ v3 - Decided to try out transfer learning as well. Chose VGG16 as my base model 
 For first iteration I just added 3 Dense layers on top of VGG16. This model took 10 epoch to train to 100% train accuracy and 99.5 validation accuracy. Ended up with the same testing result as before.
 
 This project gave me an idea of how to gather data required for deep learning. Till now I had used datasets that came bundled with Tensorflow. As stated in many of the blogs, I did spend most of time gathering data as well as creating an efficient input pipeline for it. This model could still be improved a lot, by adding even more kinds of images, like that of people holding or eating a hot dog.
+
+v4 (Minor Improvement) - Gathered more images of people eating hot dogs. Made a few tweaks to the model and voila! It can recognize the previously misclassified images. Introduced few more images to test the model. It still has trouble classifying images where the person is more prominent than the hot dog. This is likely because of I had bunch of images of just people in the non hot dog category.
